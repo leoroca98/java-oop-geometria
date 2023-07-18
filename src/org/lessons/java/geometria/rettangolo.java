@@ -19,4 +19,6 @@ public class rettangolo {
     //a questo punto sfrutto due metodi per calcolare area e perimetro
 
 
+
+
 }
