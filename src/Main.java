@@ -1,3 +1,6 @@
+
+import org.lessons.java.geometria.rettangolo;
+
 import java.util.Scanner;
 
 public class Main {
@@ -5,18 +8,19 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Inserisci la base del rettangolo: ");
-        double base = scanner.nextDouble();
+        int base = scanner.nextInt();
 
         System.out.print("Inserisci l'altezza del rettangolo: ");
-        double altezza = scanner.nextDouble();
+        int altezza = scanner.nextInt();
 
-        // Puoi utilizzare i valori inseriti per calcolare l'area o il perimetro del rettangolo
-        double area = base * altezza;
-        double perimetro = 2 * (base + altezza);
+        rettangolo rettangolo = new rettangolo(base, altezza);
+
+        int area = rettangolo.calcolaArea();
+        int perimetro = rettangolo.calcolaPerimetro();
 
         System.out.println("L'area del rettangolo è: " + area);
         System.out.println("Il perimetro del rettangolo è: " + perimetro);
 
         scanner.close();
-        }
     }
+}

@@ -1,24 +1,24 @@
 package org.lessons.java.geometria;
 
-
-//una classe Rettangolo con due attributi interi: base e altezza. Aggiungere un opportuno costruttore con parametri. Aggiungere due metodi:
-// calcolaArea e calcolaPerimetro che calcolano e restituiscono, rispettivamente, l’area e il perimetro del rettangolo.
 public class rettangolo {
 
-    // definisco i campi
-    int base;
-    int altezza;
+    //definisco quali sono i campi
+    private int base;
+    private int altezza;
 
-    // utilizzo un costruttore con annessi parametri
+    //utilizzo un costruttore
 
-    rettangolo(int base, int altezza){
+     public rettangolo(int base, int altezza) {
         this.base = base;
         this.altezza = altezza;
     }
 
-    //a questo punto sfrutto due metodi per calcolare area e perimetro
-
-
-
-
+    //definisco quale metodo ho utilizzato per il calcolo dell'area
+     public int calcolaArea() {
+        return base * altezza;
+    }
+    //definisco quale metodo ho utilizzato per il calcolo del perimetro
+     public int calcolaPerimetro() {
+        return 2 * (base + altezza);
+    }
 }
