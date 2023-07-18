@@ -7,7 +7,7 @@
     <list default="true" id="75d8c8fa-d5df-4143-b17e-b66341327262" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/geometria/rettangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/geometria/rettangolo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/geometria/rettangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/geometria/Rettangolo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689682283902</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="terzo commit con vari aggiustamenti">
+      <option name="closed" value="true" />
+      <created>1689684695832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689684695832</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inizio esercizio" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="terzo commit con vari aggiustamenti" />
+    <option name="LAST_COMMIT_MESSAGE" value="terzo commit con vari aggiustamenti" />
   </component>
 </project>

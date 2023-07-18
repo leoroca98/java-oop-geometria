@@ -1,5 +1,5 @@
 
-import org.lessons.java.geometria.rettangolo;
+import org.lessons.java.geometria.Rettangolo;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Main {
         System.out.print("Inserisci l'altezza del rettangolo: ");
         int altezza = scanner.nextInt();
 
-        rettangolo rettangolo = new rettangolo(base, altezza);
+        Rettangolo rettangolo = new Rettangolo(base, altezza);
 
         int area = rettangolo.calcolaArea();
         int perimetro = rettangolo.calcolaPerimetro();

@@ -1,18 +1,15 @@
 package org.lessons.java.geometria;
 
-public class rettangolo {
-
+public class Rettangolo {
     //definisco quali sono i campi
-    private int base;
-    private int altezza;
+     int base;
+     int altezza;
 
     //utilizzo un costruttore
-
-     public rettangolo(int base, int altezza) {
+    public Rettangolo(int base, int altezza) {
         this.base = base;
         this.altezza = altezza;
     }
-
     //definisco quale metodo ho utilizzato per il calcolo dell'area
      public int calcolaArea() {
         return base * altezza;
